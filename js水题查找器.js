@@ -1,7 +1,7 @@
 var request = require('request')
 var cheerio = require('cheerio')
 var URL_36KR = 'http://acm.zzuli.edu.cn/userinfo.php?user=jy18304113';
-var url='http://acm.zzuli.edu.cn/userinfo.php?user=jy18304128';
+var url='http://acm.zzuli.edu.cn/userinfo.php?user=jy18412208';
 request(URL_36KR, 
 function(err, res, body) { 
   var pd=/p\(\d\d\d\d/g;
